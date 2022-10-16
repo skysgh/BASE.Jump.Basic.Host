@@ -13,9 +13,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.SUBREPOS", "05.SUBREPOS", "{F445625F-C30D-463B-87AD-D1C549481D6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BASE", "BASE", "{B0D575E0-0AE6-48BC-90E2-9E1ED018DCB0}"
-	ProjectSection(SolutionItems) = preProject
-		SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.Infrastructure.IoC.Lamar\21.App.Base.IoC.Lamar.csproj = SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.Infrastructure.IoC.Lamar\21.App.Base.IoC.Lamar.csproj
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "71.App.Base.Shared", "SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.Shared\71.App.Base.Shared.csproj", "{8402DEC9-2F8F-4518-B34E-1B048409C881}"
 EndProject
@@ -37,7 +34,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.SERVICE.CLIENT", "03.SER
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Service.Host", "App.Service.Host.Web.Dev\App.Service.Host.csproj", "{0D4B07ED-3FB7-4D74-B0FD-719F22EA42E7}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "App.Service.Client", "SUBREPOS\BASE.Jump.Dev.Client\App.Service.Client.Web.Dev\App.Service.Client.esproj", "{B785418E-3A01-4252-BD3F-3BD6EA945CE4}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "App.Service.Client.Web", "SUBREPOS\BASE.Jump.Dev.Client\App.Service.Client.Web\App.Service.Client.Web.esproj", "{B785418E-3A01-4252-BD3F-3BD6EA945CE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
