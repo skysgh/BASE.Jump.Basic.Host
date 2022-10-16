@@ -48,11 +48,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\LIB.BASE\App.Base.Infrastructure.IoC.Lamar\21.App.Base.IoC.Lamar.csproj" />
-    <ProjectReference Include="..\..\LIB.BASE\App.Base.IoC.Autofac\21.App.Base.IoC.Autofac.csproj" />
-    <ProjectReference Include="..\..\LIB.BASE\App.Base.Shared\71.App.Base.Shared.csproj" />
-    <ProjectReference Include="..\..\LIB.BASE\App.Base.Infrastructure.Storage.EF\62.App.Base.Infrastructure.Data.Storage.Db.EF.csproj" />
-    <ProjectReference Include="..\..\LIB.BASE\App.Base.Presentation.Web\31.App.Base.Presentation.Web.csproj" />
+    <ProjectReference Include="..\SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.Infrastructure.IoC.Lamar\21.App.Base.IoC.Lamar.csproj" />
+    <ProjectReference Include="..\SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.Infrastructure.Storage.EF\62.App.Base.Infrastructure.Data.Storage.Db.EF.csproj" />
+    <ProjectReference Include="..\SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.IoC.Autofac\21.App.Base.IoC.Autofac.csproj" />
+    <ProjectReference Include="..\SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.Presentation.Web\31.App.Base.Presentation.Web.csproj" />
+    <ProjectReference Include="..\SUBREPOS\BASE\00.Source\LIB.BASE\App.Base.Shared\71.App.Base.Shared.csproj" />
   </ItemGroup>
 
   
