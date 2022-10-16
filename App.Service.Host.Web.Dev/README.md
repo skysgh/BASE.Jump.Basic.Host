@@ -10,7 +10,6 @@ It's good form to ensure Assemblies have the least number of Dependencies.
 
 - See [Development Guidelines](./Resources/Readme.Development.Guidelines.md)
 
-
 ## Startup Sequence
 
 - See [Startup Sequence](./Resources/Readme.Startup.Sequence.md)
