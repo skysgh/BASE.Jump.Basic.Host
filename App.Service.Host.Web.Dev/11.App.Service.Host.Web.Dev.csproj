@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>App.Service.Host.Web.Dev</AssemblyName>
+    <RootNamespace>App.Service.Host.Web</RootNamespace>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Compile Remove="COMPONENTS\**" />
+    <Compile Remove="LATELOAD\**" />
+    <Compile Remove="MODULES\**" />
+    <Compile Remove="Services\**" />
+    <Content Remove="COMPONENTS\**" />
+    <Content Remove="LATELOAD\**" />
+    <Content Remove="MODULES\**" />
+    <Content Remove="Services\**" />
+    <EmbeddedResource Remove="COMPONENTS\**" />
+    <EmbeddedResource Remove="LATELOAD\**" />
+    <EmbeddedResource Remove="MODULES\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="COMPONENTS\**" />
+    <None Remove="LATELOAD\**" />
+    <None Remove="MODULES\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="MainBuilderExtension.cs" />
+    <Compile Remove="MainBuiltAppExtension.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LIB.BASE\App.Base.Infrastructure.IoC.Lamar\21.App.Base.IoC.Lamar.csproj" />
+    <ProjectReference Include="..\..\LIB.BASE\App.Base.IoC.Autofac\21.App.Base.IoC.Autofac.csproj" />
+    <ProjectReference Include="..\..\LIB.BASE\App.Base.Shared\71.App.Base.Shared.csproj" />
+    <ProjectReference Include="..\..\LIB.BASE\App.Base.Infrastructure.Storage.EF\62.App.Base.Infrastructure.Data.Storage.Db.EF.csproj" />
+    <ProjectReference Include="..\..\LIB.BASE\App.Base.Presentation.Web\31.App.Base.Presentation.Web.csproj" />
+  </ItemGroup>
+
+  
+</Project>

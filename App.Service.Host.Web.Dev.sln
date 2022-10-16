@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.App.Service.Host.Web.Dev", "App.Service.Host.Web.Dev\11.App.Service.Host.Web.Dev.csproj", "{444C4CD0-CB80-4F18-BAF4-4EA1DB0B701B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.ENVIRONMENT", "02.ENVIRONMENT", "{536B6BBE-F694-4962-95E8-A5D8ACDD12CC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.SOURCE", "03.SOURCE", "{D1F9F57B-51FC-4F8E-BE94-27F2E1C28348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444C4CD0-CB80-4F18-BAF4-4EA1DB0B701B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444C4CD0-CB80-4F18-BAF4-4EA1DB0B701B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444C4CD0-CB80-4F18-BAF4-4EA1DB0B701B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444C4CD0-CB80-4F18-BAF4-4EA1DB0B701B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{444C4CD0-CB80-4F18-BAF4-4EA1DB0B701B} = {D1F9F57B-51FC-4F8E-BE94-27F2E1C28348}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5F694B0-49EB-4B71-BAA9-4CD837CD9D71}
+	EndGlobalSection
+EndGlobal
