@@ -1,0 +1,4 @@
+[submodule "SUBREPOS/BASE"]
+	path = SUBREPOS/BASE
+	url = https://github.com/skysgh/BASE.git
+	branch = main
