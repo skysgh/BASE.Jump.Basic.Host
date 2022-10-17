@@ -2,7 +2,23 @@
 	path = SUBREPOS/BASE
 	url = https://github.com/skysgh/BASE.git
 	branch = main
-[submodule "SUBREPOS/BASE.Jump.Dev.Client"]
-	path = SUBREPOS/BASE.Jump.Dev.Client
+[submodule "SUBREPOS/CLIENT"]
+	path = SUBREPOS/CLIENT
 	url = https://github.com/skysgh/BASE.Jump.Dev.Client.git
+	branch = main
+[submodule "SUBREPOS/MODULE.TEMPLATE"]
+	path = SUBREPOS/MODULE.TEMPLATE
+	url = https://github.com/skysgh/BASE.Modules.Template.git
+	branch = main
+[submodule "SUBREPOS/MODULE.DEVLEARN"]
+	path = SUBREPOS/MODULE.DEVLEARN
+	url = https://github.com/skysgh/BASE.Modules.DevLearn.git
+	branch = main
+[submodule "SUBREPOS/MODULE.CORE"]
+	path = SUBREPOS/MODULE.CORE
+	url = https://github.com/skysgh/BASE.Modules.DevLearn.git
+	branch = main
+[submodule "SUBREPOS/MODULE.SPIKES"]
+	path = SUBREPOS/MODULE.SPIKES
+	url = https://github.com/skysgh/BASE.Modules.DevLearn.git
 	branch = main
