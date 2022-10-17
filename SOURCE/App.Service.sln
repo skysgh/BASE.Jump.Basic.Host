@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.SUBREPOS", "09.SUBREPOS"
 		SUBREPOS\readme.md = SUBREPOS\readme.md
 	EndProjectSection
 EndProject
+
+
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.BASE", "02.BASE", "{B0D575E0-0AE6-48BC-90E2-9E1ED018DCB0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "71.App.Base.Shared", "..\SUBREPOS\BASE\SOURCE\App.Base.Shared\71.App.Base.Shared.csproj", "{8402DEC9-2F8F-4518-B34E-1B048409C881}"
@@ -41,61 +43,61 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "App.Service.Client.Web", ".
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.MODULES", "03.MODULES", "{F3BC87FD-D627-4639-952B-0A9AB2CF4186}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.KW_TEMPLATE.Shared", "..\SUBREPOS\MODULE.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Shared\61.App.Modules.KW_TEMPLATE.Shared.csproj", "{EFDFD1DA-A651-4998-800A-B615F8374364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.KW_TEMPLATE.Shared", "..\SUBREPOS\MODULES.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Shared\61.App.Modules.KW_TEMPLATE.Shared.csproj", "{EFDFD1DA-A651-4998-800A-B615F8374364}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEMPLATE", "TEMPLATE", "{5D96F44D-C472-4A4F-98B2-AA82F2C6EA80}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.KW_TEMPLATE.Infrastructure", "..\SUBREPOS\MODULE.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Infrastructure\51.App.Modules.KW_TEMPLATE.Infrastructure.csproj", "{0BBCA423-D15E-4260-BB3E-6C97B51400CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.KW_TEMPLATE.Infrastructure", "..\SUBREPOS\MODULES.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Infrastructure\51.App.Modules.KW_TEMPLATE.Infrastructure.csproj", "{0BBCA423-D15E-4260-BB3E-6C97B51400CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.KW_TEMPLATE.Domain", "..\SUBREPOS\MODULE.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Domain\41.App.Modules.KW_TEMPLATE.Domain.csproj", "{86D4D391-339D-4B91-828B-0163177EDBC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.KW_TEMPLATE.Domain", "..\SUBREPOS\MODULES.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Domain\41.App.Modules.KW_TEMPLATE.Domain.csproj", "{86D4D391-339D-4B91-828B-0163177EDBC7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.KW_TEMPLATE.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULE.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Infrastructure.Storage.Db.EF\52.App.Modules.KW_TEMPLATE.Infrastructure.Data.Storage.Db.EF.csproj", "{5BD7F474-1D64-459C-AC5B-93DEF7E4BA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.KW_TEMPLATE.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULES.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Infrastructure.Storage.Db.EF\52.App.Modules.KW_TEMPLATE.Infrastructure.Data.Storage.Db.EF.csproj", "{5BD7F474-1D64-459C-AC5B-93DEF7E4BA2D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.KW_TEMPLATE.Application", "..\SUBREPOS\MODULE.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Application\31.App.Modules.KW_TEMPLATE.Application.csproj", "{902320E5-E8A7-451F-BE8A-6D2DA5D8B333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.KW_TEMPLATE.Application", "..\SUBREPOS\MODULES.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Application\31.App.Modules.KW_TEMPLATE.Application.csproj", "{902320E5-E8A7-451F-BE8A-6D2DA5D8B333}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.KW_TEMPLATE.Presentation.Web", "..\SUBREPOS\MODULE.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Presentation.Web\21.App.Modules.KW_TEMPLATE.Presentation.Web.csproj", "{5614BFA9-4359-46E4-9A32-065B88124F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.KW_TEMPLATE.Presentation.Web", "..\SUBREPOS\MODULES.TEMPLATE\SOURCE\App.Modules.KW_TEMPLATE.Presentation.Web\21.App.Modules.KW_TEMPLATE.Presentation.Web.csproj", "{5614BFA9-4359-46E4-9A32-065B88124F45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.DevSpikes.Shared", "..\SUBREPOS\MODULE.SPIKES\SOURCE\App.Modules.DevSpikes.Shared\61.App.Modules.DevSpikes.Shared.csproj", "{332F0B5B-FF3C-4753-A3F4-5E137D1EA245}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.DevSpikes.Shared", "..\SUBREPOS\MODULES.SPIKES\SOURCE\App.Modules.DevSpikes.Shared\61.App.Modules.DevSpikes.Shared.csproj", "{332F0B5B-FF3C-4753-A3F4-5E137D1EA245}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SPIKES", "SPIKES", "{49077489-F88B-4F15-BCDC-08B152326F1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.DevSpikes.Domain", "..\SUBREPOS\MODULE.SPIKES\SOURCE\App.Modules.DevSpikes.Domain\41.App.Modules.DevSpikes.Domain.csproj", "{CE3BCC7A-3D28-4F2E-BB5C-85BF035380AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.DevSpikes.Domain", "..\SUBREPOS\MODULES.SPIKES\SOURCE\App.Modules.DevSpikes.Domain\41.App.Modules.DevSpikes.Domain.csproj", "{CE3BCC7A-3D28-4F2E-BB5C-85BF035380AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.DevSpikes.Infrastructure", "..\SUBREPOS\MODULE.SPIKES\SOURCE\App.Modules.DevSpikes.Infrastructure\51.App.Modules.DevSpikes.Infrastructure.csproj", "{D6303108-18E0-41C0-B01D-33B91BD7921D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.DevSpikes.Infrastructure", "..\SUBREPOS\MODULES.SPIKES\SOURCE\App.Modules.DevSpikes.Infrastructure\51.App.Modules.DevSpikes.Infrastructure.csproj", "{D6303108-18E0-41C0-B01D-33B91BD7921D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.DevSpikes.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULE.SPIKES\SOURCE\App.Modules.DevSpikes.Infrastructure.EF\52.App.Modules.DevSpikes.Infrastructure.Data.Storage.Db.EF.csproj", "{5204BCE6-100D-475A-8E5A-CBA3AECAB36A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.DevSpikes.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULES.SPIKES\SOURCE\App.Modules.DevSpikes.Infrastructure.EF\52.App.Modules.DevSpikes.Infrastructure.Data.Storage.Db.EF.csproj", "{5204BCE6-100D-475A-8E5A-CBA3AECAB36A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.DevSpikes.Application", "..\SUBREPOS\MODULE.SPIKES\SOURCE\App.Modules.DevSpikes.Application\31.App.Modules.DevSpikes.Application.csproj", "{3D8645D3-D692-4258-8862-7DE6CB9CDBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.DevSpikes.Application", "..\SUBREPOS\MODULES.SPIKES\SOURCE\App.Modules.DevSpikes.Application\31.App.Modules.DevSpikes.Application.csproj", "{3D8645D3-D692-4258-8862-7DE6CB9CDBDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.DevSpikes.Presentation.Web", "..\SUBREPOS\MODULE.SPIKES\SOURCE\App.Modules.DevSpikes.Presentation.Web\21.App.Modules.DevSpikes.Presentation.Web.csproj", "{EBC4441B-C5CE-43D6-82D8-9C39631A4E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.DevSpikes.Presentation.Web", "..\SUBREPOS\MODULES.SPIKES\SOURCE\App.Modules.DevSpikes.Presentation.Web\21.App.Modules.DevSpikes.Presentation.Web.csproj", "{EBC4441B-C5CE-43D6-82D8-9C39631A4E19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEVLEARN", "DEVLEARN", "{655D50FA-9231-4BE3-AC80-574936829F3F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.DevLearn.Shared", "..\SUBREPOS\MODULE.DEVLEARN\SOURCE\App.Modules.DevLearn.Shared\61.App.Modules.DevLearn.Shared.csproj", "{B096D314-F31D-415E-BA5C-3F6BC8C06E8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.DevLearn.Shared", "..\SUBREPOS\MODULES.DEVLEARN\SOURCE\App.Modules.DevLearn.Shared\61.App.Modules.DevLearn.Shared.csproj", "{B096D314-F31D-415E-BA5C-3F6BC8C06E8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.DevLearn.Domain", "..\SUBREPOS\MODULE.DEVLEARN\SOURCE\App.Modules.DevLearn.Domain\41.App.Modules.DevLearn.Domain.csproj", "{381072D7-A7E6-42EF-8837-2935BF019DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.DevLearn.Domain", "..\SUBREPOS\MODULES.DEVLEARN\SOURCE\App.Modules.DevLearn.Domain\41.App.Modules.DevLearn.Domain.csproj", "{381072D7-A7E6-42EF-8837-2935BF019DEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.DevLearn.Infrastructure", "..\SUBREPOS\MODULE.DEVLEARN\SOURCE\App.Modules.DevLearn.Infrastructure\51.App.Modules.DevLearn.Infrastructure.csproj", "{54A2F92C-64E5-4041-92CC-A69210954334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.DevLearn.Infrastructure", "..\SUBREPOS\MODULES.DEVLEARN\SOURCE\App.Modules.DevLearn.Infrastructure\51.App.Modules.DevLearn.Infrastructure.csproj", "{54A2F92C-64E5-4041-92CC-A69210954334}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.DevLearn.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULE.DEVLEARN\SOURCE\App.Modules.DevLearn.Infrastructure.Storage.Db.EF\52.App.Modules.DevLearn.Infrastructure.Data.Storage.Db.EF.csproj", "{28D7E7F0-1688-4321-829B-2F19436D4C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.DevLearn.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULES.DEVLEARN\SOURCE\App.Modules.DevLearn.Infrastructure.Storage.Db.EF\52.App.Modules.DevLearn.Infrastructure.Data.Storage.Db.EF.csproj", "{28D7E7F0-1688-4321-829B-2F19436D4C19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.DevLearn.Application", "..\SUBREPOS\MODULE.DEVLEARN\SOURCE\App.Modules.DevLearn.Application\31.App.Modules.DevLearn.Application.csproj", "{562A172F-6E5F-40A7-9CFD-D42C3C2EB6DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.DevLearn.Application", "..\SUBREPOS\MODULES.DEVLEARN\SOURCE\App.Modules.DevLearn.Application\31.App.Modules.DevLearn.Application.csproj", "{562A172F-6E5F-40A7-9CFD-D42C3C2EB6DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.DevLearn.Presentation.Web", "..\SUBREPOS\MODULE.DEVLEARN\SOURCE\App.Modules.DevLearn.Presentation.Web\21.App.Modules.DevLearn.Presentation.Web.csproj", "{AEF1EB2E-0346-4457-971D-0F87B0657563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.DevLearn.Presentation.Web", "..\SUBREPOS\MODULES.DEVLEARN\SOURCE\App.Modules.DevLearn.Presentation.Web\21.App.Modules.DevLearn.Presentation.Web.csproj", "{AEF1EB2E-0346-4457-971D-0F87B0657563}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CORE", "CORE", "{1B998BCF-06B2-4181-9C7B-37B19E09B928}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.Core.Shared", "..\SUBREPOS\MODULE.CORE\SOURCE\App.Modules.Core.Shared\61.App.Modules.Core.Shared.csproj", "{FD19415C-5AEB-4C7D-A345-C1079101C842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61.App.Modules.Core.Shared", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Shared\61.App.Modules.Core.Shared.csproj", "{FD19415C-5AEB-4C7D-A345-C1079101C842}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.Core.Domain", "..\SUBREPOS\MODULE.CORE\SOURCE\App.Modules.Core.Domain\41.App.Modules.Core.Domain.csproj", "{9DD7314E-3FFF-4109-B83C-13601A4FF2FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.Core.Domain", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Domain\41.App.Modules.Core.Domain.csproj", "{9DD7314E-3FFF-4109-B83C-13601A4FF2FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.Core.Infrastructure", "..\SUBREPOS\MODULE.CORE\SOURCE\App.Modules.Core.Infrastructure\51.App.Modules.Core.Infrastructure.csproj", "{EEA3535A-7CA2-47DB-A2B0-612AD69FC2AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.Core.Infrastructure", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Infrastructure\51.App.Modules.Core.Infrastructure.csproj", "{EEA3535A-7CA2-47DB-A2B0-612AD69FC2AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULE.CORE\SOURCE\App.Modules.Core.Infrastructure.Storage.Db.EF\52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF.csproj", "{51F5857F-5B7B-4DE3-9F24-2DE5EC0F596D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Infrastructure.Storage.Db.EF\52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF.csproj", "{51F5857F-5B7B-4DE3-9F24-2DE5EC0F596D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.Core.Application", "..\SUBREPOS\MODULE.CORE\SOURCE\App.Modules.Core.Application\31.App.Modules.Core.Application.csproj", "{0ECB7630-5BC0-419B-8E29-662125FDA084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.Core.Application", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Application\31.App.Modules.Core.Application.csproj", "{0ECB7630-5BC0-419B-8E29-662125FDA084}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.Core.Presentation.Web", "..\SUBREPOS\MODULE.CORE\SOURCE\App.Modules.Core.Presentation.Web\21.App.Modules.Core.Presentation.Web.csproj", "{D87C1000-5C0B-498E-8CCA-D94AEF6C760B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.Core.Presentation.Web", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Presentation.Web\21.App.Modules.Core.Presentation.Web.csproj", "{D87C1000-5C0B-498E-8CCA-D94AEF6C760B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
