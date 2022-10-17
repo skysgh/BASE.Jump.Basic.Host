@@ -6,19 +6,19 @@
 	path = SUBREPOS/CLIENT
 	url = https://github.com/skysgh/BASE.Jump.Dev.Client.git
 	branch = main
-[submodule "SUBREPOS/MODULE.TEMPLATE"]
-	path = SUBREPOS/MODULE.TEMPLATE
+[submodule "SUBREPOS/MODULES.DEVLEARN"]
+	path = SUBREPOS/MODULES.DEVLEARN
+	url = https://github.com/skysgh/BASE.Modules.DevLearn.git
+	branch = main
+[submodule "SUBREPOS/MODULES.SPIKES"]
+	path = SUBREPOS/MODULES.SPIKES
+	url = https://github.com/skysgh/BASE.Modules.Spikes.git
+	branch = main
+[submodule "SUBREPOS/MODULES.TEMPLATE"]
+	path = SUBREPOS/MODULES.TEMPLATE
 	url = https://github.com/skysgh/BASE.Modules.Template.git
 	branch = main
-[submodule "SUBREPOS/MODULE.DEVLEARN"]
-	path = SUBREPOS/MODULE.DEVLEARN
-	url = https://github.com/skysgh/BASE.Modules.DevLearn.git
-	branch = main
-[submodule "SUBREPOS/MODULE.CORE"]
-	path = SUBREPOS/MODULE.CORE
-	url = https://github.com/skysgh/BASE.Modules.DevLearn.git
-	branch = main
-[submodule "SUBREPOS/MODULE.SPIKES"]
-	path = SUBREPOS/MODULE.SPIKES
-	url = https://github.com/skysgh/BASE.Modules.DevLearn.git
+[submodule "SUBREPOS/MODULES.CORE"]
+	path = SUBREPOS/MODULES.CORE
+	url = https://github.com/skysgh/BASE.Modules.Core.git
 	branch = main
