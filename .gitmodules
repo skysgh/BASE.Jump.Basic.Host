@@ -22,3 +22,7 @@
 	path = SUBREPOS/MODULES.CORE
 	url = https://github.com/skysgh/BASE.Modules.Core.git
 	branch = main
+[submodule "SUBREPOS/CLIENT.T1"]
+	path = SUBREPOS/CLIENT.T1
+	url = https://github.com/skysgh/BASE.Jump.Dev.Client.T1.git
+	branch = main
