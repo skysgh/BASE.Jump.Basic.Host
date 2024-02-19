@@ -7,7 +7,8 @@ using System.Text;
 namespace App.Host.Web.Api.Rest.Controllers.Spikes
 {
     /// <summary>
-    /// 
+    /// For Demo/Learning purposes only.
+    /// A controller that returns the current time.
     /// </summary>
     [Route(ApiConstants.RestApiRoutePrefix + "[controller]")]
     [ApiController]
@@ -15,10 +16,14 @@ namespace App.Host.Web.Api.Rest.Controllers.Spikes
     public class TimeController : ControllerBase
     {
         static DateTime Started;
+        /// <summary>
+        /// Initializes the <see cref="TimeController"/> class.
+        /// </summary>
         static TimeController()
         {
             Started = DateTime.UtcNow;
         }
+
         /// <summary>
         /// REST API GET Verb handler
         /// </summary>

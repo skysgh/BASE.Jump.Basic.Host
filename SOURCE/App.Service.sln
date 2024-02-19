@@ -12,11 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.SOURCE", "03.SOURCE", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.SUBREPOS", "09.SUBREPOS", "{F445625F-C30D-463B-87AD-D1C549481D6F}"
 	ProjectSection(SolutionItems) = preProject
-		SUBREPOS\readme.md = SUBREPOS\readme.md
+		..\SUBREPOS\ReadMe.md = ..\SUBREPOS\ReadMe.md
 	EndProjectSection
 EndProject
-
-
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.BASE", "02.BASE", "{B0D575E0-0AE6-48BC-90E2-9E1ED018DCB0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "71.App.Base.Shared", "..\SUBREPOS\BASE\SOURCE\App.Base.Shared\71.App.Base.Shared.csproj", "{8402DEC9-2F8F-4518-B34E-1B048409C881}"
@@ -98,6 +96,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.Core.Application", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Application\31.App.Modules.Core.Application.csproj", "{0ECB7630-5BC0-419B-8E29-662125FDA084}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.Core.Presentation.Web", "..\SUBREPOS\MODULES.CORE\SOURCE\App.Modules.Core.Presentation.Web\21.App.Modules.Core.Presentation.Web.csproj", "{D87C1000-5C0B-498E-8CCA-D94AEF6C760B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{030E19A6-FC57-4897-825D-14BAFFB941AE}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
