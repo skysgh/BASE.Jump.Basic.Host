@@ -4,10 +4,10 @@ An environment used to develop BASE Components.
 
 ## Getting Started - Use ##
 
-Read [Getting Started](./ReadMe.Getting Started.Dev.md).
+Read [Getting Started](./ReadMe.Getting_Started.Dev.md).
 
 
 ## Getting Started - Development ##
 
-Read [Getting Started](./ReadMe.Getting Started.Use.md).
+Read [Getting Started](./ReadMe.Getting_Started.Use.md).
 
