@@ -99,6 +99,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.Core.Present
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{030E19A6-FC57-4897-825D-14BAFFB941AE}"
 	ProjectSection(SolutionItems) = preProject
+		ReadMe.Getting_Started.Dev.md = ReadMe.Getting_Started.Dev.md
+		ReadMe.Getting_Started.Use.md = ReadMe.Getting_Started.Use.md
 		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
